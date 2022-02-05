@@ -1,9 +1,8 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
 
+
 function App() {
-  // TODO: Implement Moment.js to display the time remaining
-  //       instead of using Date();
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
     const difference = +new Date(`10/01/${year}`) - +new Date();
