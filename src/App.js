@@ -4,9 +4,6 @@ import React, { useEffect, useState } from 'react';
 const fiveMinutes = +new Date() + 5 * 60 * 1000;
 
 function App() {
-  // let difference = (+new Date + 5 * 60 * 10000);
-
-
   const calculateTimeLeft = () => {
     const difference = fiveMinutes - +new Date;
 
